@@ -5,12 +5,16 @@ Run ```python intstream.py``` and enter any number to obtain a continuous stream
 
 
 ```
-Decimal between 0 and 1: 0.1472199776118636
-Coin toss: Tails
-Dice roll: ⚁
-Card draw: A♣
-Number between 0 and 100: 93
-Number between 0 and 1000: 977
-Random IP address: 169.82.251.164
-Random English word: think
+Decimal between 0 and 1: 0.2967307632
+Coin toss: Heads
+Dice roll: ⚄
+Card draw: 4♠
+Number between 0 and 100: 32
+Number between 0 and 1000: 216
+Random IP address: 112.224.80.192
+Random English word: illumination
+Random prime number: 67537
+Random Street Address #1: 富官庄镇, 沂水县, 临沂市, 山东省, 中国
+Random Street Address #2: Русско-Устьинский наслег, Аллаиховский улус, Республика Саха (Якутия), Дальневосточный федеральный округ, 678805, Россия
+Random Street Address #3: Port Moresby District, Central, Southern Region, Papua Niugini
 ```
