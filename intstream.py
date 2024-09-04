@@ -4,7 +4,7 @@ from nltk.corpus import brown
 from geopy.geocoders import Nominatim
 
 BIGNUM = 3**3**8 + eval(input("Enter any number: "))
-intstream = (BIGNUM % int(math.pi*time.time()) for _ in range(BIGNUM))
+intstream = (BIGNUM % int(math.pi*time.time()*math.e) for _ in range(BIGNUM))
 
 moveUp = lambda:print('\033[1A', end="")
 clear = lambda n:print(("\b" * n) + (" " * n) + ("\b" * n), end="")
