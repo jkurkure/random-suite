@@ -56,8 +56,10 @@ except KeyboardInterrupt:
     for i in range(int(result) % 10 + 1):
         while True:
             latitude = (int(result[2:4]) * time.time()) % 180 - 90
-            longitude = (int(result[3:6]) * time.time()) % 360 - 180
+            longitude = (int(result[3:6]) * time.time()) % 180
             location = Nominatim(user_agent='GetLoc').reverse((latitude, longitude))
             if  location != None:
                 console.print(f"Random Street Address #{i + 1}: {location.address}")
                 break
+            # else:
+            #     print(f"({latitude},{longitude}) does not exist")
