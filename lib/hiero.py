@@ -1,0 +1,3 @@
+glyphs = [f'A{i}' for i in range(1, 71)] + [f'B{i}' for i in range(1, 10)] + [f'C{i}' for i in range(1, 25)] + [f'D{i}' for i in range(1, 68)] + [f'E{i}' for i in range(1, 39)] + [f'F{i}' for i in range(1, 54)] + [f'G{i}' for i in range(1, 55)] + [f'H{i}' for i in range(1, 9)] + [f'I{i}' for i in range(1, 16)] + [f'K{i}' for i in range(1, 9)] + [f'L{i}' for i in range(1, 9)] + [f'M{i}' for i in range(1, 45)] + [f'N{i}' for i in range(1, 43)] + [f'NL{i}' for i in range(1, 21)] + [f'NU{i}' for i in range(1, 23)] + [f'O{i}' for i in range(1, 52)]
+
+seps = ['-', ':', '*']
